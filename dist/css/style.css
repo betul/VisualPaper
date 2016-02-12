@@ -118,6 +118,10 @@ transition: all 0.5s;}
 
 footer{color: #8A8888;padding-top: 10px;padding-bottom: 10px;background: #E0E0E0;margin-top: 30px;font-size: 13px;}
 footer .fa-camera {margin-left: 10px; color: #aaa}
+
+
+
+.search-bar .form-control{border-radius: 10px;     background-color: #F3F1F1; border: 1px solid #cccccc;  }
 @media all and (min-width:1199px){
   .group-picture .img-responsive{  height: 156px!important;}
   .gold-picture .col-md-4 .img-responsive {height: 207px;}
