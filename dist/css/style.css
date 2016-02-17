@@ -43,6 +43,7 @@ figure:hover > a::before{background:rgba(14,14,14,0.43);content:"\f002";}
 .fa-archive:before {content: "\f187";}
 .fa-tags:before {content: "\f02c";}
 .fa-folder-o:before {  content: "\f114";}
+.fa-search:before {content: "\f002";}
 .btn-coffee{border:0; background: #fff; border:1px solid #ddd; color: #aaa; border-radius: 15px; box-shadow: none; padding:7px;
   float:right; font-size: 13px; min-width: 130px; text-align: center;  cursor: pointer;  -webkit-transition: all 0.5s;
 -moz-transition: all 0.5s;
@@ -66,8 +67,10 @@ footer .fa-camera {margin-left: 10px; color: #aaa}
   .gold-picture .col-md-4 .img-responsive {height: 170px;}
   .gold-picture .col-md-8 .img-responsive {height: auto;}
 }
-.search-bar{margin-bottom: 30px;}
-.search-bar .form-control{border-radius: 5px;     background-color: #F3F1F1; border: 1px solid #cccccc;  }
+.search-bar{margin-bottom: 30px; position: relative;}
+.search-bar .form-control{border-radius: 5px;     background-color: #F3F1F1; border: 1px solid #cccccc; box-shadow: none!important}
+.search-bar .form-control:focus{background: #fff;}
+.search-bar button{    background: transparent;box-shadow: none;border: 0!important; position: absolute; right: 6px; top: 6px; outline: none;}
 .rightBar {padding: 5px 0px 10px 20px  ;}
 .rightBar .title{font-size: 13px;color: #9C9C9C;font-weight: 600; display: block; margin-top: 15px; }
 .rightBar  .title .fa{margin-right: 5px; font-size: 15px; color: #6D6C6C}
@@ -77,18 +80,5 @@ footer .fa-camera {margin-left: 10px; color: #aaa}
 .rightBar .link-list li i{margin-right: 5px;}
 .tag {padding-left: 5px;}
 
-.badge {
-    display: inline-block;
-    min-width: 10px;
-    padding: 3px 7px;
-    font-size: 11px;
-    font-weight: 700;
-    line-height: 1;
-    color: #E6E5E5;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    background-color: #9C9EA0;
-    border-radius: 10px;
-    float: right;
-}
+.badge { display: inline-block; min-width: 10px; padding: 3px 7px; font-size: 11px; font-weight: 700;  line-height: 1;  color: #E6E5E5;  text-align: center;  white-space: nowrap;  vertical-align: middle;
+background-color: #9C9EA0;  border-radius: 10px;float: right;}
