@@ -66,8 +66,8 @@ footer .fa-camera {margin-left: 10px; color: #aaa}
   .gold-picture .col-md-4 .img-responsive {height: 170px;}
   .gold-picture .col-md-8 .img-responsive {height: auto;}
 }
-
-.search-bar .form-control{border-radius: 10px;     background-color: #F3F1F1; border: 1px solid #cccccc;  }
+.search-bar{margin-bottom: 30px;}
+.search-bar .form-control{border-radius: 5px;     background-color: #F3F1F1; border: 1px solid #cccccc;  }
 .rightBar {padding: 5px 0px 10px 20px  ;}
 .rightBar .title{font-size: 13px;color: #9C9C9C;font-weight: 600; display: block; margin-top: 15px; }
 .rightBar  .title .fa{margin-right: 5px; font-size: 15px; color: #6D6C6C}
